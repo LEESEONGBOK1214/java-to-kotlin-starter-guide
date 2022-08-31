@@ -10,6 +10,8 @@ public class Person {
     this.name = name;
   }
 
+  // @NotNull // 코틀린에서 사용할때도 nullable
+//@Nullable // 코틀린에서 사용할때도 not null
   public String getName() {
     return name;
   }
